@@ -1,16 +1,16 @@
-# 🛠️ SupportMCP
+# SupportMCP
 
 SupportMCP is a lightweight ticket management system that includes:
 
-- ✅ A simple CRUD for managing support tickets
-- 💬 A WebSocket-based AI-powered chat using **Gemini AI**
-- 🧑‍💼 Role-based system for **clients** and **employees**
+- A simple CRUD for managing support tickets
+- A WebSocket-based AI-powered chat using **Gemini AI**
+- Role-based system for **clients** and **employees**
   
 ---
 
-## ✨ Features
+## Features
 
-### 🎫 Ticket Management (CRUD)
+### Ticket Management (CRUD)
 - Employees can **create**, **read**, **update**, and **delete** tickets.
 - Tickets include information like:
   - Type: `bug`, `feature_request`, `question`, or `other`
@@ -19,7 +19,7 @@ SupportMCP is a lightweight ticket management system that includes:
 - Employees can **assign themselves** to tickets and **write a resolution message** for the client.
 - Timestamps like `assigned_at` and `resolved_at` are automatically handled.
 
-### 🤖 AI Chat Assistant (Gemini AI)
+### AI Chat Assistant (Gemini AI)
 - Real-time WebSocket chat interface between **client** and **Gemini AI**
 - Clients can:
   - **Create users** via the chat
@@ -27,13 +27,13 @@ SupportMCP is a lightweight ticket management system that includes:
   - **Ask questions**
   - **Receive the final resolution** when a ticket is resolved
 
-### 👥 User Roles
+### User Roles
 - **Clients**: Interact only through the chat to create and view tickets.
 - **Employees**: Use the admin panel to manage tickets, assign them, and provide resolutions.
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
 | Layer        | Tech                      |
 |--------------|---------------------------|
@@ -45,7 +45,7 @@ SupportMCP is a lightweight ticket management system that includes:
 
 ---
 
-## 🖼️ System Screenshots
+## System Screenshots
 ### User interaction with Chat
 ![image](https://github.com/user-attachments/assets/aca2931f-20a8-433d-92d6-73fd97e5dc4c)
 
